@@ -1,4 +1,4 @@
-# mkbin.pl
+# mkbin
 Perl-based binary data generator.
 
 YAY! Another little language!
