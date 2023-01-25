@@ -22,7 +22,7 @@ ok() {
 0xabcdef1234567890 # hex
 __EOF__
 
-od -tx1 x >x.hex
+od -tx1 x | sed 's/  */ /g; s/ *$//' >x.hex
 
 cat >x.tst <<__EOF__
 0000000 ff 68 22 69 01 6c 6f ff 02 03 00 ff 68 22 69 00
