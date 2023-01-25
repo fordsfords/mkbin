@@ -53,9 +53,9 @@ $ hexdump -C x
 
 Here's what the commands mean:
 * 8d255 - 8-bit decimal value 255
-* "h\"i" - the string h"i
+* "h\\"i" - the string h"i
 * 8d-1 - 8-bit decimal value -1
-* "l\"o" - the string l\o
+* "l\\\\o" - the string l\o
 * 16d1 - 16-bit decimal value 1 (defaults to big endian)
 * !endian=0 - switch to little endian
 * 16d2 - 16-bit decimal value 2 in little endian
