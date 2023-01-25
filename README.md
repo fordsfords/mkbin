@@ -66,8 +66,11 @@ Here's what the commands mean:
 
 # TODO
 
-* Simple looping construct
 * Include directive
+* Simple looping construct
+* Variables, functions, if/then/else, for/while, macros, etc, etc.
+* Or, if you have a complex data generation that needs language features, just write it in Perl. :-)
+
 
 # LICENSE
 
