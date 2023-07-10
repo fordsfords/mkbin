@@ -12,6 +12,12 @@ ok() {
 }
 
 
+# Update doc table of contents (see https://github.com/fordsfords/mdtoc).
+if which mdtoc.pl >/dev/null; then mdtoc.pl -b "" README.md;
+elif [ -x ../mdtoc/mdtoc.pl ]; then ../mdtoc/mdtoc.pl -b "" README.md;
+else echo "FYI: mdtoc.pl not found; see https://github.com/fordsfords/mdtoc"
+fi
+
 ./mkbin.pl -o x <<__EOF__
 # comment
 8d255  "h\"i" 8d1  "\l\\o" 8d-1  !endian=0 8d2  !endian=1 8d3 # comment

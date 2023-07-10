@@ -1,6 +1,15 @@
 # mkbin
 Perl-based binary data generator.
 
+<!-- mdtoc-start -->
+&DoubleRightArrow; [mkbin](#mkbin)  
+&DoubleRightArrow; [USAGE](#usage)  
+&DoubleRightArrow; [EXAMPLE](#example)  
+&DoubleRightArrow; [TODO](#todo)  
+&DoubleRightArrow; [LICENSE](#license)  
+<!-- TOC created by '../mdtoc/mdtoc.pl README.md' (see https://github.com/fordsfords/mdtoc) -->
+<!-- mdtoc-end -->
+
 YAY! Another little language!
 
 I've written this program a few times in my years,
