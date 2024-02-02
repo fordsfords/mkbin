@@ -2,12 +2,12 @@
 Perl-based binary data generator.
 
 <!-- mdtoc-start -->
-&DoubleRightArrow; [mkbin](#mkbin)  
-&DoubleRightArrow; [USAGE](#usage)  
-&DoubleRightArrow; [EXAMPLE](#example)  
-&DoubleRightArrow; [TODO](#todo)  
-&DoubleRightArrow; [LICENSE](#license)  
-<!-- TOC created by '../mdtoc/mdtoc.pl README.md' (see https://github.com/fordsfords/mdtoc) -->
+&bull; [mkbin](#mkbin)  
+&bull; [Usage](#usage)  
+&bull; [Example](#example)  
+&bull; [TODO](#todo)  
+&bull; [License](#license)  
+<!-- TOC created by '/home/sford/bin/mdtoc.pl README.md' (see https://github.com/fordsfords/mdtoc) -->
 <!-- mdtoc-end -->
 
 YAY! Another little language!
@@ -21,8 +21,13 @@ This time for sure!
 I want an easy way to create a binary file that lets me
 specify its contents in hex, decimal, or ascii.
 
+NOTE: there is also a small script "mkbin.sh".
+It simply demonstrates a Bash script that writes a binary
+file and relies on the -e flag for the "echo" command.
+This is only periferally related to the main mkbin.pl tool.
 
-# USAGE
+
+# Usage
 
 ````
 Usage: mkbin.pl [-h] [-o out_file] [file ...]
@@ -49,7 +54,7 @@ where each line contains one or more commands
 and/or comments (blank lines and comments are ignored).
 
 
-# EXAMPLE
+# Example
 
 For example:
 ````
@@ -81,7 +86,7 @@ Here's what the commands mean:
 * Or, if you have a complex data generation that needs language features, just write it in Perl. :-)
 
 
-# LICENSE
+# License
 
 I want there to be NO barriers to using this code, so I am releasing it to the public domain.  But "public domain" does not have an internationally agreed upon definition, so I use CC0:
 
